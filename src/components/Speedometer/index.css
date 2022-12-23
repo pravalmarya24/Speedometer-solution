@@ -1,0 +1,104 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #07080c;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-size {
+  height: 300px;
+  width: 700px;
+}
+
+.speed-heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.speed-para {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.acc-btn {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 8px;
+  border-width: 0px;
+  background-color: #0b69ff;
+  height: 40px;
+  width: 90px;
+  cursor: pointer;
+  outline: none;
+}
+
+.app-btn {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 8px;
+  border-width: 2px;
+  border-color: #ffffff;
+  background-color: #07080c;
+  height: 40px;
+  width: 90px;
+  margin-left: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 576px) {
+  .bg-container {
+    min-width: 50%;
+  }
+  .img-size {
+    height: 150px;
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bg-container {
+    min-width: 70%;
+  }
+  .img-size {
+    height: 200px;
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .bg-container {
+    min-width: 90%;
+  }
+  .img-size {
+    height: 350px;
+    width: 600px;
+  }
+}
